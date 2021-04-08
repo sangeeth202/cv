@@ -1,0 +1,49 @@
+body{
+  background-color:#f8f1f1;
+  margin: 0;
+}
+.top-container{
+  background-color: #19456b;
+  height: 10vh;
+  width: 100%;
+  color: white;
+  text-align: right;
+  }
+  #profile-img{
+    height: 20%;
+    width: 50%;
+  }
+  .download{
+    margin-top: 0px;
+    padding: 10px 30px 10px 10px;
+  }
+.container {
+  width: 100%;
+  height: 100%;
+
+  /* flex */
+  display: flex;
+}
+.left-container,
+.right-container{
+  overflow: hidden;
+}
+.left-container{
+  background-color: #19456b;
+  height: 100vh;
+  width: 20%;
+  color: #e8e8e8;
+  padding: 10px;
+  text-align: center;
+}
+.right-container{
+background-color:#e8e8e8;
+/* flex */
+flex-grow: 1;
+
+}
+
+h1{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
